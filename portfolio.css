@@ -15,6 +15,7 @@ body {
             position: sticky;
             top: 0;
             height:80px;
+            z-index: 10;
         }
         main {
             min-height: 80vh;
@@ -23,7 +24,7 @@ body {
             color: white;
         }
         footer {
-            background : RADIAL-GRADIENT(circle at left, #00d4ff,#243b55,#080c18);
+            background : radial-gradient(circle at left, #00d4ff,#243b55,#080c18);
             color:white;
             padding: 10px;
             text-align: center;
@@ -50,7 +51,8 @@ body {
         }
         .button:hover {
             background-color: #e671c8;
-        }input, textarea { width: 100%; padding: 10px; border-radius: 5px; border: none; }
+        }
+        input, textarea { width: 100%; padding: 10px; border-radius: 5px; border: none; }
         .form-group {
             display: flex;
             flex-direction: column;
@@ -60,15 +62,27 @@ body {
         }
         .form-group:hover { color: #e671c8; }
 .card {
-    flex: 1;
     padding: 20px;
     border: 1px solid #cbd5e1;
     border-radius: 12px;
     background: rgba(8, 12, 24, 0.6);
     color: white;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-5px);
 }
 .projects{
     display :grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 20px;
+}
+.h2{
+    margin-bottom:10px;
+}
+.section {
+    margin-bottom:30px;
+}
+.p{
+    line-height:1.5;
 }
