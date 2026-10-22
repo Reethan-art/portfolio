@@ -77,12 +77,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 20px;
 }
-.h2{
+h2{
     margin-bottom:10px;
 }
-.section {
+section {
     margin-bottom:30px;
 }
-.p{
+p{
     line-height:1.5;
 }
