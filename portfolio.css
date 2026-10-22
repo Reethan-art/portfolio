@@ -19,7 +19,7 @@ body {
         main {
             min-height: 80vh;
             padding:20px;
-            background: radial-gradient(circle at center, #1619dd, #e1dce7);
+            background: radial-gradient(circle at center, #1619dd, #3b2a8f);
             color: white;
         }
         footer {
