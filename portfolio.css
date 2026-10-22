@@ -59,20 +59,6 @@ body {
             font-size: 20px;
         }
         .form-group:hover { color: #e671c8; }
-        @media (max-width: 600px) {
-            .profile-image {
-                width: 100px;
-                height: 100px;
-            }
-            .form-group{
-                font-size: 18px;
-            }
-            .projects { flex-direction: column; }
-        }
-        .projects {
-            display: flex;
-            gap: 20px;
-        }
 .card {
     flex: 1;
     padding: 20px;
@@ -80,4 +66,9 @@ body {
     border-radius: 12px;
     background: rgba(8, 12, 24, 0.6);
     color: white;
+}
+.projects{
+    display :grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
 }
