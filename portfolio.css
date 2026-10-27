@@ -48,6 +48,7 @@ body {
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            margin: 15px;
         }
         .button:hover {
             background-color: #e671c8;
@@ -85,4 +86,20 @@ section {
 }
 p{
     line-height:1.5;
+}
+#funbutton{
+    text-align: center;
+    padding: 5px 25px;   
+    margin: 25px;
+    color:#00d4ff;
+    background : radial-gradient(circle at top ,#3a0f34 ,transparent 100%);
+    cursor: auto;
+}#funbutton:hover{
+    color :chartreuse;
+    transition: 1.25ms;
+}
+#funp{
+    text-align: center;
+    font-weight: 100;
+    font-size: larger;
 }
